@@ -16,8 +16,7 @@ body {
 }
 
 header {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding: 20px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
 }
 
@@ -30,6 +29,11 @@ header h1 {
   letter-spacing: -1px;
 }
 
+.header {
+  margin-top: 20px;
+  background: #2c3e50;
+}
+
 a {
     color: #49afef;
     text-decoration: none;
@@ -40,13 +44,14 @@ section {
 }
 
 section.circles {
-    background: #2c3e50;
+    margin-top: 20px;
+    background: #1abc9c;
 }
 
 section.text {
   	padding: 80px;
     margin-top: 20px;
-    background: #2c3e50;
+    background: #008C9E;
     font-size: 20px;
 }
 
