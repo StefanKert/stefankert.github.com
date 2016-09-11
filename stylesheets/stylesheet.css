@@ -15,6 +15,11 @@ body {
   transform-origin: 50% 50% 0;
 }
 
+svg { 
+  height: 100%;
+  width: 100%;
+}
+
 header {
   padding: 20px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
@@ -30,7 +35,6 @@ header h1 {
 }
 
 .header {
-  margin-top: 20px;
   background: #2c3e50;
 }
 
@@ -55,51 +59,56 @@ section.text {
     font-size: 20px;
 }
 
-.dotnet-circle:after {
-    background: #4f4f4f url("../images/code.png");
-}
 
-.code-img {
-    background: #4f4f4f url("../images/code.png");
-    display: flex;
-    justify-content: center;
-}
-
-.code-img .visualstudio {
-    content: url("../images/visualstudio.svg");
-    width: 100px;
+.circle-icon {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 }
 
 .angular-img {
-    background: #4f4f4f url("../images/angular.png");
-    display: flex;
-    justify-content: center;
+    background: url("/images/angular.png");
 }
 
-.angular-img .angular {
-    content: url("../images/angular.svg");
-    width: 160px;
+.angular>svg {
+  width: 130px;
+  height: 130px;
+}
+
+.code-img {
+    background: url("/images/code.png");
+}
+
+.code>svg {
+  width: 110px;
+  height: 110px;
 }
 
 .database-img {
-    background: #4f4f4f url("../images/data.png");
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background:  url("/images/data.png");
 }
 
-.database-img .database {
+.database>svg {
     background: rgba(242,200, 17, 1);
-    content: url("../images/data.svg");
-    width: 120px;
+    width: 130px;
     height: 130px;
 }
+
+.centered-circle {
+  display: flex;
+  justify-content: center;
+}
+
+/*----------------------ICONS--------------------------*/
 
 .icon-list {
   display: flex;
 }
 
-.icon {
+.icon>svg {
+	display:inline-block;
   width: 32px;
   height: 32px;
   margin-top:10px;
@@ -108,25 +117,8 @@ section.text {
   transition: all 0.1s ease-in-out;
 }
 
-.icon:hover {
+.icon>svg:hover {
   width: 40px;
   height: 40px;
   margin-top:2px;
-}
-
-.icon-twitter {
-  content: url("../images/twitter.svg");
-}
-
-.icon-stackoverflow  {
-  content: url("../images/stackoverflow.svg");
-}
-
-.icon-github  {
-  content: url("../images/github.svg");
-}
-
-.centered-circle {
-  display: flex;
-  justify-content: center;
 }
