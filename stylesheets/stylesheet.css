@@ -14,6 +14,7 @@ body {
   color: rgba(255,255,255,1);
   background: radial-gradient(circle, rgb(35,29,24) 25%, rgba(0,0,0,0) 25%), radial-gradient(circle, rgb(63,57,50) 25%, rgba(0,0,0,0) 25%), radial-gradient(circle, rgb(35,29,24) 25%, rgba(0,0,0,0) 25%), radial-gradient(circle, rgb(63,57,50) 25%, rgba(0,0,0,0) 25%), rgba(0,57,84,1);
   background-size: 6em 6em;
+  overflow-x: hidden;
 }
 
 header {
