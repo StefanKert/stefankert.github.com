@@ -8,7 +8,7 @@ github_username:  stefankert
 
 # Build settings
 markdown: kramdown
-contenturl: "/content/"
+contenturl: "/blog/content/"
 theme: minima
 plugins:
   - jekyll-feed
