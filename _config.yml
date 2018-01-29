@@ -2,8 +2,19 @@ title: Stefan Kert - Software Engineering
 email: stefan.kert@sbg.at
 description: Website and Blog 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.stefankert.com" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: stefankert
+github_username:  stefankert
 
 # Build settings
 markdown: kramdown
+contenturl: "/content/"
 theme: minima
+plugins:
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md

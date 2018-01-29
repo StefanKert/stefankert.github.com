@@ -118,3 +118,23 @@ section.text {
   height: 40px;
   margin-top:2px;
 }
+
+.post-list {
+  list-style: none;
+  font-size:16px;
+}
+
+.post-meta {
+  font-size: 13px;
+  color: white;
+  display: inline-block;
+  border-radius: 4px;
+  margin-bottom: 1em;
+}
+
+.post-link, a.post-link, .post-title {
+  display: inline;
+  font-size: 20px;
+  color: #fff;
+  line-height: 1.3;
+}
