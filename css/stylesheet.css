@@ -142,3 +142,20 @@ section.text {
 .page-content {
   font-size: 15px;
 }
+
+.post-content p, .post-content ul li {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 1.75em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  line-height: 120%;  
+  margin: 20px 0 17px 0;
+}
+
+img {
+  max-width: 100%;
+}
