@@ -3,10 +3,7 @@ layout: post
 title:  "Creating a blog - Part 1 - Setting up Jekyll on Windows"
 date:   2018-01-29 11:46:54 +0100
 ---
-
-# Creating a blog - Part 1 - Setting up Jekyll on Windows
 ## Introduction
-
 
 There are so many blogging engines on the market today. One of the most frequently used is probably Wordpress. It is kind of easy to setup and you can achieve many things easily. So why not going with Wordpress? Well, to be honest, I don´t know. 
 
