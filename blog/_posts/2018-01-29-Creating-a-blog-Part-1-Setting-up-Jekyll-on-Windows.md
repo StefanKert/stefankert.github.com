@@ -2,7 +2,6 @@
 layout: post
 title:  "Creating a blog - Part 1 - Setting up Jekyll on Windows"
 date:   2018-01-29 11:46:54 +0100
-categories: jekyll linuxsubsystem ruby windows blogging
 ---
 
 # Creating a blog - Part 1 - Setting up Jekyll on Windows
