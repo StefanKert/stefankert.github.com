@@ -1,7 +1,7 @@
 html, body {
-  margin:0px;
-  padding:0px;
-  width:100%;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
 }
 
 body {
@@ -11,8 +11,8 @@ body {
   line-height: 1.5;
   cursor: default;
   font: normal 1.5px/normal Arial, Helvetica, sans-serif;
-  color: rgba(255,255,255,1);
-  background: radial-gradient(circle, rgb(35,29,24) 25%, rgba(0,0,0,0) 25%), radial-gradient(circle, rgb(63,57,50) 25%, rgba(0,0,0,0) 25%), radial-gradient(circle, rgb(35,29,24) 25%, rgba(0,0,0,0) 25%), radial-gradient(circle, rgb(63,57,50) 25%, rgba(0,0,0,0) 25%), rgba(0,57,84,1);
+  color: rgba(255, 255, 255, 1);
+  background: radial-gradient(circle, rgb(35, 29, 24) 25%, rgba(0, 0, 0, 0) 25%), radial-gradient(circle, rgb(63, 57, 50) 25%, rgba(0, 0, 0, 0) 25%), radial-gradient(circle, rgb(35, 29, 24) 25%, rgba(0, 0, 0, 0) 25%), radial-gradient(circle, rgb(63, 57, 50) 25%, rgba(0, 0, 0, 0) 25%), rgba(0, 57, 84, 1);
   background-size: 6em 6em;
   overflow-x: hidden;
 }
@@ -36,26 +36,25 @@ header h1 {
 }
 
 a {
-    color: #49afef;
-    text-decoration: none;
+  color: #49afef;
+  text-decoration: none;
 }
 
 section {
-	padding: 10px;
+  padding: 10px;
 }
 
 section.circles {
-    margin-top: 20px;
-    background: #1abc9c;
+  margin-top: 20px;
+  background: #1abc9c;
 }
 
 section.text {
-  	padding: 30px;
-    margin-top: 20px;
-    background: #008C9E;
-    font-size: 20px;
+  padding: 30px;
+  margin-top: 20px;
+  background: #008C9E;
+  font-size: 20px;
 }
-
 
 .circle-icon {
   height: 100%;
@@ -66,7 +65,7 @@ section.text {
 }
 
 .angular-img {
-    background: url("/images/angular.png");
+  background: url("/images/angular.png");
 }
 
 .angular>svg {
@@ -75,7 +74,7 @@ section.text {
 }
 
 .code-img {
-    background: url("/images/code.png");
+  background: url("/images/code.png");
 }
 
 .code>svg {
@@ -84,13 +83,13 @@ section.text {
 }
 
 .database-img {
-    background:  url("/images/data.png");
+  background: url("/images/data.png");
 }
 
 .database>svg {
-    background: rgba(242,200, 17, 1);
-    width: 130px;
-    height: 130px;
+  background: rgba(242, 200, 17, 1);
+  width: 130px;
+  height: 130px;
 }
 
 .centered-circle {
@@ -105,10 +104,10 @@ section.text {
 }
 
 .icon>svg {
-	display:inline-block;
+  display: inline-block;
   width: 32px;
   height: 32px;
-  margin-top:10px;
+  margin-top: 10px;
   -webkit-transition: all 0.1s ease-in-out;
   -moz-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
@@ -117,12 +116,12 @@ section.text {
 .icon>svg:hover {
   width: 40px;
   height: 40px;
-  margin-top:2px;
+  margin-top: 2px;
 }
 
 .post-list {
   list-style: none;
-  font-size:16px;
+  font-size: 16px;
 }
 
 .post-meta {
@@ -154,7 +153,7 @@ section.text {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Lato", sans-serif;
   font-weight: 300;
-  line-height: 120%;  
+  line-height: 120%;
   margin: 20px 0 17px 0;
 }
 
@@ -164,13 +163,21 @@ img {
 
 .post-list .post-link {
   display: inline;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .post-list .post-meta {
   display: inline-block;
-  width: 75px;
   margin-bottom: 0;
+}
+
+@media (min-width: 970px) {
+  .post-list .post-meta {
+    width: 100px;
+  }
+  .post-list .post-link {
+    font-size: 20px;
+  }
 }
 
 .site-nav {
@@ -188,7 +195,7 @@ img {
   transition-property: transform;
 }
 
-@media (min-width: 970px){
+@media (min-width: 970px) {
   .two-columns {
     column-count: 2;
   }

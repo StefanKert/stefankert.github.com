@@ -12,7 +12,7 @@ title: Blog
                     <h2>{{ year }}</h2>
                 </li>{% endif %}
                 <li>
-                    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -
+                    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
                     <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                 </li>{% endfor %}
             </ul>
