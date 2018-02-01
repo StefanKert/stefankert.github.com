@@ -18,8 +18,9 @@ body {
 }
 
 header {
+  font-size: 15px;
   padding: 20px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
 }
 
 header h1 {
@@ -49,7 +50,7 @@ section.circles {
 }
 
 section.text {
-  	padding: 80px;
+  	padding: 30px;
     margin-top: 20px;
     background: #008C9E;
     font-size: 20px;
@@ -170,4 +171,48 @@ img {
   display: inline-block;
   width: 75px;
   margin-bottom: 0;
+}
+
+.site-nav {
+  border-radius: 4px;
+  font-size: 13px;
+  line-height: 2.2;
+  position: relative;
+}
+
+.site-nav .page-link {
+  color: #ddd;
+  line-height: 1.5;
+  transition: transform 0.1s;
+  transition-property: transform;
+  transition-property: transform;
+}
+
+.two-columns {
+  column-count: 2;
+}
+
+.text p {
+  font-size: 15px;
+  line-height: 2.2;
+}
+
+.ih-item.circle .profile-img {
+  width: 100px !important;
+  height: 100px !important;
+}
+
+.ih-item.profile-outer-circle {
+  width: 110px !important;
+  height: 110px !important;
+}
+
+.ih-item.profile-circle {
+  width: 110px !important;
+  height: 110px !important;
+}
+
+.profile-spinner {
+  width: 120px !important;
+  height: 120px !important;
 }

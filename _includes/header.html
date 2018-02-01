@@ -1,24 +1,34 @@
 <header class="header">
     <div class="row">
-        <div class="col-md-2 col-offset-2 centered-circle">
-            <div class="ih-item outer-circle colored effect1">
+        <div class="col-md-1 col-offset-2 centered-circle">
+            <div class="ih-item outer-circle profile-outer-circle colored effect1">
                 <a>
-                    <div class="ih-item circle effect1">
+                    <div class="ih-item profile-circle circle effect1">
                         <a href="#">
-                            <div class="spinner"></div>
-                            <div class="img"><img src="{{ "/images/me.jpg" | prepend: site.baseurl }}" alt="img"></div>
+                            <div class="spinner profile-spinner"></div>
+                            <div class="img profile-img">
+                                <img src="{{ " /images/me.jpg " | prepend: site.baseurl }}" alt="img">
+                            </div>
                         </a>
                     </div>
                 </a>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-10">
             <div class="row">
                 <div class="col-md-12">
-                    <h1>Stefan Kert</h1>
+                    <h3>Stefan Kert - Software engineering without a cape</h3>
                 </div>
             </div>
             <div class="row">
+                <div class="col-md-3">
+                    <nav class="site-nav">
+                        <a class="page-link active" href="/">Home</a> |
+                        <a class="page-link" href="/blog/">Blog</a> |
+                        <a class="page-link" href="/projects/">Projects</a> |
+                        <a class="page-link" href="/skills/">Skills</a>
+                    </nav>
+                </div>
                 <div class="col-md-4">
                     <div class="icon-list">
                         <a href="https://twitter.com/StefanKert">
@@ -45,8 +55,12 @@
                                 </svg>
                             </span>
                         </a>
+
                     </div>
                 </div>
+            </div>
+            <div class="row">
+
             </div>
         </div>
     </div>
