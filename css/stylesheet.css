@@ -188,8 +188,10 @@ img {
   transition-property: transform;
 }
 
-.two-columns {
-  column-count: 2;
+@media (min-width: 970px){
+  .two-columns {
+    column-count: 2;
+  }
 }
 
 .text p {
